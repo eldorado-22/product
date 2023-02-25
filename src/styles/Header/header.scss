@@ -1,0 +1,120 @@
+#header {
+  background: #FFFFFF;
+  box-shadow: 10px 5px 10px #BCD0E5;
+  padding: 10px 0;
+
+  .header {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--logo {
+      display: flex;
+
+
+      h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #173A56;
+        padding: 0 15px;
+        //text-shadow: 5px 1px 5px #02897A;
+        text-transform: capitalize;
+      }
+    }
+
+    &--navBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 60%;
+
+      &__nav {
+        a {
+          font-weight: 600;
+          font-size: 16px;
+          color: #22343D;
+          transition: .6s;
+          padding: 0 20px;
+
+
+          &:hover {
+            color: #02897A;
+          }
+        }
+      }
+
+      &__btnOne {
+        padding: 10px 20px;
+        border: 1px solid #BCD0E5;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #173A56;
+        transition: .6s;
+        box-shadow: 2px 2px 10px 1px #02897A;
+        outline: none;
+
+
+        &:hover {
+          color: white;
+          background: #02897A;
+          border: none;
+          outline: none;
+        }
+      }
+
+      &__btnTwo {
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-weight: 600;
+        border: none;
+        font-size: 16px;
+        color: #fff;
+        transition: .6s;
+        background: #02897A;
+        box-shadow: 2px 2px 10px 1px #626467;
+
+
+        &:hover {
+          color: #02897A;
+          background: transparent;
+          border: 2px solid #02897A;
+          outline: none;
+
+        }
+      }
+
+
+      &__btnDark {
+        border: none;
+        outline: none;
+        background: transparent;
+        &:hover {
+          transform: rotate(360deg);
+
+          border: none;
+          outline: none;
+        }
+
+        &--dark {
+          color: #02897A;
+          border-radius: 50%;
+          font-size: 30px;
+          padding: 5px 5px;
+          //box-shadow: 2px 2px 10px 1px #02897A;
+
+          &:hover {
+            outline: none;
+            border: none;
+          }
+
+        }
+
+
+      }
+
+
+    }
+  }
+}
