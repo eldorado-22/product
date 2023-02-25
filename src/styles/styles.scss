@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "Product/product";
+@import "Header/header";
+@import "Footer/footer";
+@import "Hero/hero";
+@import "Management/management";
+@import "Support/sopport";
+@import "Block/block";
+@import "Process/process";
+@import "Collabration/for";
+@import "Footer/footer";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
