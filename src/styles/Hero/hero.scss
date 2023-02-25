@@ -1,0 +1,72 @@
+#hero {
+  padding: 20px 0;
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    &--text {
+      h1 {
+        font-weight: 700;
+        font-size: 40px;
+        color: #000;
+        filter: drop-shadow(4px 4px 8px #02897A);
+      }
+
+      p {
+        filter: drop-shadow(4px 4px 8px #02897A);
+        font-weight: 400;
+        font-size: 18px;
+        color: black;
+        padding: 30px 0;
+      }
+
+      &__btn {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        filter: drop-shadow(4px 4px 8px #02897A);
+
+        button {
+          font-weight: 600;
+          font-size: 18px;
+          text-align: center;
+          padding: 15px 35px;
+          background: #02897A;
+          color: #FFFFFF;
+          border: none;
+          transition: .6s;
+          border-radius: 5px;
+
+          &:hover {
+            color: #02897A;
+            background: transparent;
+            border: 2px solid #02897A;
+          }
+        }
+
+        a {
+          font-weight: 600;
+          font-size: 18px;
+          color: #02897A;
+          text-decoration: underline #02897A;
+          margin: 0 15px;
+
+          &:hover {
+            color: #173A56;
+          }
+
+          &--play {
+            color: #02897A;
+          }
+        }
+      }
+    }
+
+    img {
+      filter: drop-shadow(4px 4px 8px #02897A);
+    }
+  }
+}
