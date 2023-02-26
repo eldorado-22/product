@@ -89,7 +89,9 @@
       &__btnDark {
         border: none;
         outline: none;
+        filter: drop-shadow(4px 4px 8px #02897A);
         background: transparent;
+
         &:hover {
           transform: rotate(360deg);
 

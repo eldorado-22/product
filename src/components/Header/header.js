@@ -15,24 +15,24 @@ const Header = ({getDark, dark}) => {
                     <div className="header--logo">
                         <img src={product} alt={product}/>
                         <h1 style={{
-                            color: dark ? '#02223b' : ''
+                            color: dark ? '#fff' : ''
                         }}>Product</h1>
                     </div>
                     <div className="header--navBar">
                         <nav className="header--navBar__nav">
                             <a style={{
-                                color: dark ? '#02223b' : '',
+                                color: dark ? '#fff' : '',
 
 
                             }} href="#">Product </a>
                             <a style={{
-                                color: dark ? '#02223b' : '',
+                                color: dark ? '#fff' : '',
                             }} href="#">Customers</a>
                             <a style={{
-                                color: dark ? '#02223b' : '',
+                                color: dark ? '#fff' : '',
                             }} href="#">Pricing </a>
                             <a style={{
-                                color: dark ? '#02223b' : '',
+                                color: dark ? '#fff' : '',
                             }} href="#">Resources </a>
                         </nav>
 
@@ -49,8 +49,9 @@ const Header = ({getDark, dark}) => {
                             Sign Up
                         </button>
                         <button style={{
-                            background: dark ? "#02223b" : '',
-                            backgroundColor: dark ? "transparent" : ''
+                            background: dark ? "#fff" : '',
+                            backgroundColor: dark ? "transparent" : '',
+                            filter: dark ? 'drop-shadow(1px 0.2px 4px #fff)' : ''
                          }} onClick={() => getDark(dark)} className="header--navBar__btnDark">
                             <CgDarkMode className="header--navBar__btnDark--dark"/>
                         </button>

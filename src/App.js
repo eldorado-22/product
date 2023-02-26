@@ -27,7 +27,7 @@ function App() {
             color: dark ? '#02223b' : '#000'
         }}>
             <Header getDark={getDark} dark={dark}/>
-            <Hero/>
+            <Hero getDark={getDark} dark={dark}/>
             <Product/>
             <Management/>
             <Support/>
