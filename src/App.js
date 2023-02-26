@@ -28,14 +28,14 @@ function App() {
         }}>
             <Header getDark={getDark} dark={dark}/>
             <Hero getDark={getDark} dark={dark}/>
-            <Product/>
-            <Management/>
-            <Support/>
-            <For/>
-            <Process/>
-            <Contents/>
-            <Block/>
-            <Footer/>
+            <Product getDark={getDark} dark={dark}/>
+            <Management getDark={getDark} dark={dark}/>
+            <Support getDark={getDark} dark={dark}/>
+            <For getDark={getDark} dark={dark}/>
+            <Process getDark={getDark} dark={dark}/>
+            <Contents getDark={getDark} dark={dark}/>
+            <Block getDark={getDark} dark={dark}/>
+            <Footer getDark={getDark} dark={dark}/>
         </div>
     );
 }

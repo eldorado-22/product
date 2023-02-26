@@ -5,7 +5,7 @@ import family from './../../assets/img/family.png'
 const Hero = ({dark}) => {
     return (
         <section style={{
-            background: dark ? 'rgba(36,100,88,0.95)' : '',
+            background: dark ? '#02897A' : '',
             color: dark ? '#fff' : '',
 
         }} id="hero">
