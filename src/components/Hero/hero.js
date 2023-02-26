@@ -30,7 +30,8 @@ const Hero = ({dark}) => {
                             }}>Get Started
                             </button>
                             <a style={{
-                                color: dark ? '#fff' : ''
+                                color: dark ? '#fff' : '',
+                                textTransform: dark ? '#fff' : ''
                             }} href="https://www.youtube.com/watch?v=0s4lhbmO3IM"> <BsFillPlayFill
                                 className="hero--text__btn--play"/> Watch the Video
                             </a>
