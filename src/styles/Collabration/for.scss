@@ -1,0 +1,35 @@
+#for {
+  padding: 80px 0;
+  .for {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &--title {
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+      }
+      h3 {
+        padding: 8px 0;
+        font-weight: 700;
+        font-size: 32px;
+        color: #22343D;
+      }
+      p {
+        width: 459px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        padding-bottom: 30px;
+      }
+      h5 {
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+        padding-bottom: 12px;
+      }
+    }
+  }
+}
