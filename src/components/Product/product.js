@@ -9,14 +9,13 @@ const Product = ({dark}) => {
         <section style={{
             background: dark ? '#02897' : '',
             color: dark ? '#ffffff' : '',
-
-        }}  id="product">
+        }} id="product">
             <div className="container">
                 <div className="product">
-                   <h1 style={{
-                       color: dark ? '#fff' : ''
-                   }}>Product  was Built Specifically
-                       for <br/> You</h1>
+                    <h1 style={{
+                        color: dark ? '#fff' : ''
+                    }}>Product was Built Specifically
+                        for <br/> You</h1>
                     <div className="product--sign">
                         <div className="product--sign__one">
                             <FaMousePointer className="product--sign__one--icon"/>
@@ -59,10 +58,11 @@ const Product = ({dark}) => {
                         <button style={{
                             background: dark ? "#fff" : '',
                             backgroundColor: dark ? "#ffffff" : '',
-                            color:dark ? "#22343D" : '',
+                            color: dark ? "#22343D" : '',
                             border: dark ? "none" : '',
                             filter: dark ? 'drop-shadow(1px 0.2px 4px #fff)' : ''
-                        }}  >SIGN UP NOW</button>
+                        }}>SIGN UP NOW
+                        </button>
                     </div>
                 </div>
             </div>

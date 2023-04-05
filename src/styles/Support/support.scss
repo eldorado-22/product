@@ -4,8 +4,8 @@
   .support {
     display: flex;
     align-content: center;
-    justify-content: space-around;
-    padding: 40px 0;
+    justify-content: space-between;
+    padding: 40px 40px;
 
     img {
       filter: drop-shadow(2px 4px 8px #02897A);
@@ -17,11 +17,9 @@
         font-weight: 600;
         font-size: 16px;
         color: #22343D;
-        filter: drop-shadow(2px 4px 8px #02897A);
       }
 
       h3 {
-        filter: drop-shadow(2px 4px 8px #02897A);
         font-weight: 700;
         font-size: 32px;
         color: #22343D;
@@ -30,7 +28,6 @@
       }
 
       p {
-        filter: drop-shadow(2px 4px 8px #02897A);
         font-weight: 600;
         font-size: 16px;
         color: #22343D;
@@ -65,7 +62,6 @@
       &__icon {
 
         p {
-          filter: drop-shadow(2px 4px 8px #02897A);
           font-weight: 600;
           font-size: 16px;
           color: #22343D;
