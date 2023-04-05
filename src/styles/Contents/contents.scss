@@ -1,0 +1,128 @@
+#content {
+  padding: 30px 0;
+
+  .content {
+    padding: 20px 0;
+
+    h1 {
+      font-weight: 700;
+      font-size: 34px;
+      padding: 0 40px;
+      color: #22343D;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      padding: 10px 40px;
+      color: #22343D;
+    }
+
+    &--block {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      padding: 40px 0;
+      justify-content: space-evenly;
+      margin: 0 40px;
+
+      &__one {
+        background: transparent;
+        border: 2px solid rgba(121, 115, 115, 0.76);
+        border-radius: 8px;
+        width: 76%;
+        margin: 0 10px;
+
+
+        h3 {
+          font-weight: 400;
+          font-size: 18px;
+          padding: 5px 30px;
+
+          span {
+            font-weight: 600;
+            font-size: 20px;
+          }
+        }
+
+        h2 {
+          font-weight: 700;
+          font-size: 24px;
+          padding: 25px 30px;
+          transition: .5s;
+
+
+          &:hover {
+            color: #02897A;
+          }
+        }
+      }
+
+      &__two {
+        background: transparent;
+        border: 2px solid rgba(121, 115, 115, 0.76);
+        border-radius: 8px;
+        width: 76%;
+        margin: 0 20px;
+
+        h3 {
+          font-weight: 400;
+          font-size: 18px;
+          padding: 10px 30px;
+
+          span {
+            font-weight: 600;
+            font-size: 20px;
+          }
+        }
+
+        h2 {
+          font-weight: 700;
+          font-size: 24px;
+          padding: 0 30px;
+          transition: .5s;
+
+
+          &:hover {
+            color: #02897A;
+          }
+        }
+      }
+
+      &__three {
+        background: transparent;
+        border: 2px solid rgba(121, 115, 115, 0.76);
+        border-radius: 8px;
+        width: 76%;
+        margin: 0 10px;
+
+        h3 {
+          font-weight: 400;
+          font-size: 18px;
+          padding: 10px 30px;
+
+          span {
+            font-weight: 600;
+            font-size: 20px;
+          }
+        }
+
+        h2 {
+          font-weight: 700;
+          font-size: 24px;
+          padding: 0 30px;
+          transition: .5s;
+
+          &:hover {
+            color: #02897A;
+          }
+        }
+      }
+
+      img {
+        padding-bottom: 10px;
+        filter: drop-shadow(3px -1px 6px #02897A);
+      }
+    }
+  }
+}

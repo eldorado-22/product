@@ -7,104 +7,121 @@
       font-size: 32px;
       color: #22343D;
     }
+
     &--sign {
       padding-bottom: 80px;
       display: flex;
       justify-content: space-around;
+
       &__one {
-       &--icon {
-         margin-bottom: 20px;
-         font-size: 23px;
-         border-radius: 15px;
-         padding: 10px 10px;
-         color: #FFFFFF;
-         background: #0aab99;
-         transition: .6s;
-         &:hover {
-           transform: scale(1.1);
-         }
-       }
+        &--icon {
+          margin-bottom: 20px;
+          font-size: 23px;
+          border-radius: 15px;
+          padding: 10px 10px;
+          color: #FFFFFF;
+          background: #0aab99;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
         p {
           padding-bottom: 13px;
           font-weight: 600;
           font-size: 22px;
           color: #22343D;
         }
+
         span {
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
         }
       }
+
       &__two {
-       &--icon {
-         margin-bottom: 20px;
-         font-size: 23px;
-         border-radius: 15px;
-         padding: 10px 10px;
-         color: #FFFFFF;
-         background: #4D8DFF;
-         transition: .6s;
-         &:hover {
-           transform: scale(1.1);
-         }
-       }
+        &--icon {
+          margin-bottom: 20px;
+          font-size: 23px;
+          border-radius: 15px;
+          padding: 10px 10px;
+          color: #FFFFFF;
+          background: #4D8DFF;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
         p {
           padding-bottom: 13px;
           font-weight: 600;
           font-size: 22px;
           color: #22343D;
         }
+
         span {
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
         }
       }
+
       &__three {
-       &--icon {
-         margin-bottom: 20px;
-         font-size: 23px;
-         border-radius: 15px;
-         padding: 10px 10px;
-         color: #ffffff;
-         background: #740A76;
-         transition: .6s;
-         &:hover {
-           transform: scale(1.1);
-         }
-       }
+        &--icon {
+          margin-bottom: 20px;
+          font-size: 23px;
+          border-radius: 15px;
+          padding: 10px 10px;
+          color: #ffffff;
+          background: #740A76;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
         p {
           padding-bottom: 13px;
           font-weight: 600;
           font-size: 22px;
           color: #22343D;
         }
+
         span {
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
         }
       }
+
       &__end {
-       &--icon {
-         margin-bottom: 20px;
-         font-size: 23px;
-         border-radius: 15px;
-         padding: 10px 10px;
-         color: #ffffff;
-         background: #F03E3D;
-         transition: .6s;
-         &:hover {
-           transform: scale(1.1);
-         }
-       }
+        &--icon {
+          margin-bottom: 20px;
+          font-size: 23px;
+          border-radius: 15px;
+          padding: 10px 10px;
+          color: #ffffff;
+          background: #F03E3D;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
         p {
           padding-bottom: 13px;
           font-weight: 600;
           font-size: 22px;
           color: #22343D;
         }
+
         span {
           font-weight: 400;
           font-size: 16px;
@@ -112,9 +129,11 @@
         }
       }
     }
+
     &--btn {
       padding-bottom: 80px;
       text-align: center;
+
       button {
         background: #02897A;
         border-radius: 4px;
@@ -124,10 +143,11 @@
         transition: .6s;
         font-weight: 700;
         font-size: 16px;
-        &:hover {
 
+
+        &:hover {
           border: solid 2px #02897A;
-          color: #22343D;
+          color: #02897A;
           background: transparent;
         }
       }

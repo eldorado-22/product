@@ -3,14 +3,13 @@
   .management {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 40px 0;
+    justify-content: space-between;
+    padding: 40px 50px;
 
     &--text {
       ul {
         font-weight: 600;
         font-size: 16px;
-        filter: drop-shadow(2px 4px 8px #02897A);
         color: #22343D;
       }
 
@@ -31,7 +30,6 @@
         font-weight: 700;
         font-size: 32px;
         color: #22343D;
-        filter: drop-shadow(2px 4px 8px #02897A);
 
       }
 
@@ -40,12 +38,10 @@
         font-size: 16px;
         color: #22343D;
         padding: 10px 0;
-        filter: drop-shadow(2px 4px 8px #02897A);
       }
     }
     img {
       filter: drop-shadow(2px 4px 8px #02897A);
-
     }
   }
 }

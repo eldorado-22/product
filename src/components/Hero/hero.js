@@ -12,17 +12,20 @@ const Hero = ({dark}) => {
             <div className="container">
                 <div className="hero">
                     <div className="hero--text">
+
                         <h1 style={{
                             color: dark ? '#fff' : ''
                         }}>Work at the speed <br/>
                             of thought
                         </h1>
+
                         <p style={{
                             color: dark ? '#fff' : ''
                         }}> Tools, tutorials, design and innovation experts,
                             all <br/> in one place! The most intuitive way
                             to imagine <br/> your next user experience.
                         </p>
+
                         <div className="hero--text__btn">
                             <button style={{
                                 background: dark ? '#fff' : '',
@@ -36,6 +39,7 @@ const Hero = ({dark}) => {
                                 className="hero--text__btn--play"/> Watch the Video
                             </a>
                         </div>
+
                     </div>
                     <img src={family} alt={family}/>
                 </div>
