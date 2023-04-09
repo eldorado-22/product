@@ -119,8 +119,23 @@
 
 
       }
+    }
+    &--signIn{
+      background: rgb(3, 72, 59);
+      position: absolute;
+      top: 130%;
+      left: 30%;
 
+      &__esc {
+        display: flex;
+        align-items: center;
+        button{
+          font-size: 40px;
+          color: #FFFFFF;
+          padding: 0 40px;
+        }
 
+      }
     }
   }
 }

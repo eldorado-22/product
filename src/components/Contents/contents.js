@@ -30,202 +30,32 @@ const Contents = ({dark}) => {
                     }}>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
                     <div className="content--block">
 
-                        <Slider {...settings}>
+                        {/*<Slider {...settings}>*/}
+                        {/*    <div style={{width: "76%"}} className="content--block__one">*/}
+                        {/*        <img src={one} alt="img"/>*/}
+                        {/*        <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
+                        {/*        <h2>Increasing Prosperity <br/>*/}
+                        {/*            With Positive Thinking*/}
+                        {/*        </h2>*/}
+                        {/*    </div>*/}
 
-                            {/*<div style={{width: "76%"}} className="content--block__one">*/}
-                            {/*    <img src={one} alt="img"/>*/}
-                            {/*    <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
-                            {/*    <h2>Increasing Prosperity <br/>*/}
-                            {/*        With Positive Thinking*/}
-                            {/*    </h2>*/}
-                            {/*</div>*/}
+                        {/*    <div className="content--block__two">*/}
+                        {/*        <img src={two} alt="img"/>*/}
+                        {/*        <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
+                        {/*        <h2>Increasing Prosperity <br/>*/}
+                        {/*            With Positive Thinking*/}
+                        {/*        </h2>*/}
+                        {/*    </div>*/}
 
-                            {/*<div className="content--block__two">*/}
-                            {/*    <img src={two} alt="img"/>*/}
-                            {/*    <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
-                            {/*    <h2>Increasing Prosperity <br/>*/}
-                            {/*        With Positive Thinking*/}
-                            {/*    </h2>*/}
-                            {/*</div>*/}
+                        {/*    <div className="content--block__three">*/}
+                        {/*        <img src={three} alt="img"/>*/}
+                        {/*        <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
+                        {/*        <h2>Increasing Prosperity <br/>*/}
+                        {/*            With Positive Thinking*/}
+                        {/*        </h2>*/}
+                        {/*    </div>*/}
+                        {/*</Slider>*/}
 
-                            {/*<div className="content--block__three">*/}
-                            {/*    <img src={three} alt="img"/>*/}
-                            {/*    <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
-                            {/*    <h2>Increasing Prosperity <br/>*/}
-                            {/*        With Positive Thinking*/}
-                            {/*    </h2>*/}
-                            {/*</div>*/}
-
-                            {/*<div className="content--block__two">*/}
-                            {/*    <img src={two} alt="img"/>*/}
-                            {/*    <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
-                            {/*    <h2>Increasing Prosperity <br/>*/}
-                            {/*        With Positive Thinking*/}
-                            {/*    </h2>*/}
-                            {/*</div>*/}
-
-                            {/*<div className="content--block__one">*/}
-                            {/*    <img src={two} alt="img"/>*/}
-                            {/*    <h3>By <span>Wahid Ari | </span>  03 March 2019</h3>*/}
-                            {/*    <h2>Increasing Prosperity <br/>*/}
-                            {/*        With Positive Thinking*/}
-                            {/*    </h2>*/}
-                            {/*</div>*/}
-                        </Slider>
-
-                        <div className="content--block__one">
-                            <img src={one} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__one">
-                            <img src={one} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__one">
-                            <img src={one} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__one">
-                            <img src={one} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__one">
-                            <img src={one} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__two">
-                            <img src={two} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__three">
-                            <img src={three} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__two">
-                            <img src={two} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__three">
-                            <img src={three} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__three">
-                            <img src={three} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
-
-                        <div className="content--block__one">
-                            <img src={one} alt="img"/>
-                            <h3 style={{
-                                color: dark ? '#fff' : '',
-                            }}>By <span style={{
-                                color: dark ? '#fff' : '',
-                            }}>Wahid Ari | </span> 03 March 2019</h3>
-                            <h2 style={{
-                                color: dark ? '#fff' : '',
-                            }}>Increasing Prosperity <br/>
-                                With Positive Thinking
-                            </h2>
-                        </div>
                     </div>
                 </div>
             </div>

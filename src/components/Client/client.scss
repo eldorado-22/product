@@ -1,0 +1,79 @@
+#client {
+  padding: 20px 0;
+
+  .client {
+    h1 {
+      font-weight: 700;
+      font-size: 34px;
+      color: black;
+      text-align: center;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      color: black;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    img {
+      object-fit: cover;
+      width: 16%;
+    }
+
+    &--block {
+      display: flex;
+
+      &__one {
+        width: 35%;
+        height: 270px;
+        background: #FFFFFF;
+        border: 2px solid #DEDEDE;
+        border-radius: 5px;
+
+        &--star {
+          display: flex;
+          padding: 40px 0;
+          width: 20%;
+          background: yellow;
+          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+          &__two{
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            background: yellow;
+            //color: #02897A;
+          }
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 18px;
+          color: #737373;
+          text-align: start;
+          padding: 10px 20px;
+        }
+
+        &--woman {
+          display: flex;
+          padding: 30px 20px;
+
+          h6 {
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 0.2px;
+            color: #02897A;
+            padding: 10px 10px;
+
+            span {
+              font-weight: 500;
+              font-size: 14px;
+              letter-spacing: 0.2px;
+              color: #252B42;
+            }
+          }
+        }
+      }
+    }
+  }
+}

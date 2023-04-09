@@ -11,6 +11,7 @@ import Contents from "./components/Contents/contents";
 import Block from "./components/Block/block";
 import Footer from "./components/Footer/footer";
 import {useState} from "react";
+import Client from "./components/Client/client";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Process getDark={getDark} dark={dark}/>
             <Contents getDark={getDark} dark={dark}/>
             <Block getDark={getDark} dark={dark}/>
+            <Client getDark={getDark} dark={dark}/>
             <Footer getDark={getDark} dark={dark}/>
         </div>
     );
