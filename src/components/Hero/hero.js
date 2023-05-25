@@ -4,11 +4,7 @@ import family from './../../assets/img/family.png'
 
 const Hero = ({dark}) => {
     return (
-        <section style={{
-            background: dark ? '#02897A' : '',
-            color: dark ? '#fff' : '',
-
-        }} id="hero">
+        <section id="hero">
             <div className="container">
                 <div className="hero">
                     <div className="hero--text">

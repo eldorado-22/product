@@ -4,14 +4,18 @@ import woman from "./../../assets/img/woman.svg"
 import boy from "./../../assets/img/boy.svg"
 import man from "./../../assets/img/man.svg"
 
-const Client = () => {
+const Client = ({dark}) => {
     return (
         <section id="client">
             <div className="container">
                 <div className="client">
-                    <h1>What Clients Say</h1>
+                    <h1 style={{
+                        color: dark ? '#fff' : '',
+                    }}>What Clients Say</h1>
 
-                    <p>Problems trying to resolve the conflict between <br/>
+                    <p style={{
+                        color: dark ? '#fff' : '',
+                    }}>Problems trying to resolve the conflict between <br/>
                         the two major realms of Classical physics:
                         Newtonian mechanics
                     </p>

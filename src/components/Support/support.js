@@ -4,10 +4,7 @@ import support from "./../../assets/img/sopport.png"
 
 const Support = ({dark}) => {
     return (
-        <section style={{
-            background: dark ? '#02897A' : '',
-            color: dark ? '#fff' : '',
-        }}  id="support">
+        <section id="support">
             <div className="container">
                 <div className="support">
                     <img src={support} alt={support}/>

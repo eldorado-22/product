@@ -24,8 +24,8 @@ function App() {
 
     return (
         <div style={{
-            background: dark ? 'rgba(36,100,88,0.95)' : '',
-            color: dark ? '#02223b' : '#000'
+            background: dark ? '#1F2E35' : '',
+            color: dark ? '#848a8d' : '#000'
         }}>
             <Header getDark={getDark} dark={dark}/>
             <Hero getDark={getDark} dark={dark}/>

@@ -16,10 +16,7 @@ const Contents = ({dark}) => {
     };
     return (
 
-        <section style={{
-            background: dark ? 'rgba(36,100,88,0.95)' : '',
-            color: dark ? '#fff' : '',
-        }} id="content">
+        <section id="content">
             <div className="container">
                 <div className="content">
                     <h1 style={{
