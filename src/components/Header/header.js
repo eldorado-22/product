@@ -7,9 +7,11 @@ const Header = ({getDark, dark}) => {
     const [signIn, setSignIn] = useState(false)
     const [signUp, setSignUp] = useState(false)
 
+
+
     return (
         <header id="header" style={{
-            background:  dark ? 'rgba(36,100,88,0.95)' : '',
+            background: dark ? '#1F2E35' : '',
             color: dark ? '#fff' : '',
         }}>
             <div className="container">
@@ -18,7 +20,7 @@ const Header = ({getDark, dark}) => {
                     <div className="header--logo">
                         <img src={product} alt={product}/>
                         <h1 style={{
-                            color: dark ? '#fff' : ''
+                            color: dark ? '#fff' : '',
                         }}>Product</h1>
                     </div>
 
@@ -56,7 +58,7 @@ const Header = ({getDark, dark}) => {
                         <button style={{
                             background: dark ? "#fff" : '',
                             backgroundColor: dark ? "transparent" : '',
-                            filter: dark ? 'drop-shadow(1px 0.2px 4px #fff)' : ''
+                            filter: dark ? 'drop-shadow(1px 0.2px 4px #fff)' : '',
                         }} onClick={() => getDark(dark)} className="header--navBar__btnDark"><CgDarkMode className="header--navBar__btnDark--dark"/></button>
                     </div>
 

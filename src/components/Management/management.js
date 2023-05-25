@@ -3,10 +3,7 @@ import management from './../../assets/img/management.png'
 
 const Management = ({dark}) => {
     return (
-        <section style={{
-            background: dark ? 'rgba(36,100,88,0.95)' : '',
-            color: dark ? '#fff' : ''
-        }} id="management">
+        <section id="management">
             <div className="container">
                 <div className="management">
                     <div className="management--text">
