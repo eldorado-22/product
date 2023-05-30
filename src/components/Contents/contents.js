@@ -19,12 +19,12 @@ const Contents = ({dark}) => {
         <section id="content">
             <div className="container">
                 <div className="content">
-                    <h1 style={{
-                        color: dark ? '#fff' : '',
-                    }}>Contents Strategies</h1>
-                    <p style={{
-                        color: dark ? '#fff' : '',
-                    }}>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+                    {/*<h1 style={{*/}
+                    {/*    color: dark ? '#fff' : '',*/}
+                    {/*}}>Contents Strategies</h1>*/}
+                    {/*<p style={{*/}
+                    {/*    color: dark ? '#fff' : '',*/}
+                    {/*}}>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>*/}
                     <div className="content--block">
 
                         {/*<Slider {...settings}>*/}

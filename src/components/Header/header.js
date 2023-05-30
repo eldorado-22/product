@@ -121,7 +121,6 @@ const Header = ({getDark, dark}) => {
                         </form>
                     </div>
 
-
                 </div>
             </div>
         </header>
