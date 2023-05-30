@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import product from './../../assets/img/product.svg'
+import logo from './../../assets/img/logo.svg'
 import {CgDarkMode} from "react-icons/cg";
 
 const Header = ({getDark, dark}) => {
@@ -17,8 +17,8 @@ const Header = ({getDark, dark}) => {
             <div className="container">
                 <div className="header">
 
-                    <div className="header--logo">
-                        <img src={product} alt={product}/>
+                    <div className="header--logo flex items-center">
+                        <img src={logo} alt="img"/>
                         <h1 style={{
                             color: dark ? '#fff' : '',
                         }}>Product</h1>

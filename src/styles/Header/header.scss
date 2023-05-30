@@ -14,15 +14,12 @@
     justify-content: space-between;
 
     &--logo {
-      display: flex;
 
       h1 {
         font-weight: 700;
         font-size: 30px;
         color: #173A56;
         padding: 0 15px;
-        //text-shadow: 5px 1px 5px #02897A;
-        text-transform: capitalize;
       }
     }
 
@@ -60,7 +57,6 @@
         &:hover {
           color: white;
           background: #02897A;
-          border: none;
           outline: none;
         }
       }
@@ -69,7 +65,7 @@
         padding: 10px 20px;
         border-radius: 4px;
         font-weight: 600;
-        border: none;
+        border: 1px solid #0aab99;
         font-size: 16px;
         color: #fff;
         transition: .6s;
@@ -78,8 +74,9 @@
         &:hover {
           color: #02897A;
           background: transparent;
-          border: 2px solid #02897A;
+          border: 1px solid #02897A;
           outline: none;
+          transition: .5s;
         }
       }
 

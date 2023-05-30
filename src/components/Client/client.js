@@ -9,16 +9,16 @@ const Client = ({dark}) => {
         <section id="client">
             <div className="container">
                 <div className="client">
-                    <h1 style={{
-                        color: dark ? '#fff' : '',
-                    }}>What Clients Say</h1>
-
-                    <p style={{
-                        color: dark ? '#fff' : '',
-                    }}>Problems trying to resolve the conflict between <br/>
-                        the two major realms of Classical physics:
-                        Newtonian mechanics
-                    </p>
+                    {/*<h1 style={{*/}
+                    {/*    color: dark ? '#fff' : '',*/}
+                    {/*}}>What Clients Say</h1>*/}
+                    {/**/}
+                    {/*<p style={{*/}
+                    {/*    color: dark ? '#fff' : '',*/}
+                    {/*}}>Problems trying to resolve the conflict between <br/>*/}
+                    {/*    the two major realms of Classical physics:*/}
+                    {/*    Newtonian mechanics*/}
+                    {/*</p>*/}
 
                     {/*<div className="client--block">*/}
                     {/*    <div className="client--block__one">*/}

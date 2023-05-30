@@ -12,6 +12,7 @@ import Block from "./components/Block/block";
 import Footer from "./components/Footer/footer";
 import {useState} from "react";
 import Client from "./components/Client/client";
+import Prices from "./components/Prices/prices";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Contents getDark={getDark} dark={dark}/>
             <Block getDark={getDark} dark={dark}/>
             <Client getDark={getDark} dark={dark}/>
+            <Prices getDark={getDark} dark={dark}/>
             <Footer getDark={getDark} dark={dark}/>
         </div>
     );
