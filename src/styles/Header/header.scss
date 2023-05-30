@@ -16,7 +16,6 @@
     &--logo {
       display: flex;
 
-
       h1 {
         font-weight: 700;
         font-size: 30px;
@@ -41,7 +40,6 @@
           transition: .6s;
           padding: 0 20px;
 
-
           &:hover {
             color: #02897A;
           }
@@ -58,7 +56,6 @@
         transition: .6s;
         box-shadow: 2px 2px 10px 1px #02897A;
         outline: none;
-
 
         &:hover {
           color: white;
@@ -78,31 +75,24 @@
         transition: .6s;
         background: #02897A;
         box-shadow: 2px 2px 10px 1px #626467;
-
-
         &:hover {
           color: #02897A;
           background: transparent;
           border: 2px solid #02897A;
           outline: none;
-
         }
       }
-
 
       &__btnDark {
         border: none;
         outline: none;
         filter: drop-shadow(4px 4px 8px #02897A);
         background: transparent;
-
         &:hover {
           transform: rotate(360deg);
-
           border: none;
           outline: none;
         }
-
         &--dark {
           color: #02897A;
           border-radius: 50%;
@@ -114,12 +104,10 @@
             outline: none;
             border: none;
           }
-
         }
-
-
       }
     }
+
     &--signIn{
       background: rgb(3, 72, 59);
       position: absolute;
