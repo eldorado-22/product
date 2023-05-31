@@ -24,26 +24,19 @@
 
     &--block {
       display: flex;
-
+      gap: 40px;
+      padding-top: 50px;
       &__one {
-        width: 35%;
+        width: 36%;
         height: 270px;
         background: #FFFFFF;
         border: 2px solid #DEDEDE;
         border-radius: 5px;
-
-        &--star {
-          display: flex;
-          padding: 40px 0;
-          width: 20%;
-          background: yellow;
-          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-
-          &__two{
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-            background: yellow;
-            //color: #02897A;
-          }
+        padding: 15px 15px;
+        .images {
+          width: 32%;
+          padding: 10px 20px;
+          object-fit: cover;
         }
 
         p {
@@ -51,12 +44,12 @@
           font-size: 18px;
           color: #737373;
           text-align: start;
-          padding: 10px 20px;
+          padding: 0 20px;
         }
 
         &--woman {
           display: flex;
-          padding: 30px 20px;
+          padding: 20px 20px;
 
           h6 {
             font-weight: 600;
@@ -68,7 +61,7 @@
             span {
               font-weight: 500;
               font-size: 14px;
-              letter-spacing: 0.2px;
+              letter-spacing: 1.1px;
               color: #252B42;
             }
           }
