@@ -36,9 +36,9 @@ function App() {
             <For getDark={getDark} dark={dark}/>
             <Process getDark={getDark} dark={dark}/>
             <Contents getDark={getDark} dark={dark}/>
-            <Block getDark={getDark} dark={dark}/>
-            <Client getDark={getDark} dark={dark}/>
             <Prices getDark={getDark} dark={dark}/>
+            <Client getDark={getDark} dark={dark}/>
+            <Block getDark={getDark} dark={dark}/>
             <Footer getDark={getDark} dark={dark}/>
         </div>
     );
