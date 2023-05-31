@@ -13,6 +13,12 @@ import Footer from "./components/Footer/footer";
 import {useState} from "react";
 import Client from "./components/Client/client";
 import Prices from "./components/Prices/prices";
+import {Route, Routes} from "react-router-dom";
+import ProductPage from "./Pages/Product-Page";
+import Products from "./Pages/Product-Page/Products-IN/products";
+import Index from "./Pages/Product-Page";
+import ThirdPages from "./Pages/Customers";
+import Home from "./components/Home";
 
 
 function App() {
@@ -29,16 +35,11 @@ function App() {
             color: dark ? '#848a8d' : '#000'
         }}>
             <Header getDark={getDark} dark={dark}/>
-            <Hero getDark={getDark} dark={dark}/>
-            <Product getDark={getDark} dark={dark}/>
-            <Management getDark={getDark} dark={dark}/>
-            <Support getDark={getDark} dark={dark}/>
-            <For getDark={getDark} dark={dark}/>
-            <Process getDark={getDark} dark={dark}/>
-            <Contents getDark={getDark} dark={dark}/>
-            <Prices getDark={getDark} dark={dark}/>
-            <Client getDark={getDark} dark={dark}/>
-            <Block getDark={getDark} dark={dark}/>
+            <Routes>
+                <Route path="/" element={<Home/>} getDark={getDark} dark={dark}/>/>
+                <Route path="/product" element={<Index/>} getDark={getDark} dark={dark}/>/>
+                <Route path="/customers" element={<ThirdPages/>} getDark={getDark} dark={dark}/>/>
+            </Routes>
             <Footer getDark={getDark} dark={dark}/>
         </div>
     );

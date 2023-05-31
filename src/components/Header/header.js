@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import logo from './../../assets/img/logo.svg'
 import {CgDarkMode} from "react-icons/cg";
+import {NavLink} from "react-router-dom";
 
 const Header = ({getDark, dark}) => {
 
@@ -19,20 +20,26 @@ const Header = ({getDark, dark}) => {
 
                     <div className="header--logo flex items-center">
                         <img src={logo} alt="img"/>
-                        <h1 style={{
-                            color: dark ? '#fff' : '',
-                        }}>Product</h1>
+                       <NavLink to={"/"}>
+                           <h1 style={{
+                               color: dark ? '#fff' : '',
+                           }}>Product</h1>
+                       </NavLink>
                     </div>
 
                     <div className="header--navBar">
 
                         <nav className="header--navBar__nav">
-                            <a style={{
-                                color: dark ? '#fff' : '',
-                            }} href="#">Product </a>
-                            <a style={{
-                                color: dark ? '#fff' : '',
-                            }} href="#">Customers</a>
+                            <NavLink to={"/product"}>
+                                <a style={{
+                                    color: dark ? '#fff' : '',
+                                }} href="#">Product </a>
+                            </NavLink>
+                            <NavLink to={"/customers"}>
+                                <a style={{
+                                    color: dark ? '#fff' : '',
+                                }} href="#">Customers</a>
+                            </NavLink>
                             <a style={{
                                 color: dark ? '#fff' : '',
                             }} href="#">Pricing </a>
