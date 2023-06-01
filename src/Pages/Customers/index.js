@@ -1,6 +1,7 @@
 import React from 'react';
 import OurClients from "./Our Clinets/ourClients";
 import ChooseProduct from "./Choose-Product";
+import HowProductWork from "./How_Product_Work";
 
 const ThirdPages = ({dark, getDark}) => {
     return (
@@ -10,6 +11,7 @@ const ThirdPages = ({dark, getDark}) => {
         }}>
             <OurClients getDark={getDark} dark={dark}/>
             <ChooseProduct getDark={getDark} dark={dark}/>
+            <HowProductWork getDark={getDark} dark={dark}/>
         </div>
     );
 };
