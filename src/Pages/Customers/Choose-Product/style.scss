@@ -1,10 +1,116 @@
-#choose{
-  .choose{
-    h1{
+#choose {
+  .choose {
+    h1 {
       font-weight: 700;
       font-size: 34px;
       text-align: center;
       color: #22343D;
+    }
+
+    &--group {
+      &__one {
+        padding: 20px 0;
+        width: 27%;
+        height: 305px;
+        border: 2px solid #DEDEDE;
+        border-radius: 10px;
+        &--icon {
+          border-radius: 15px;
+          color: #FFFFFF;
+          margin-bottom: 20px;
+          font-size: 50px;
+          padding: 15px 13px;
+          background: #0aab99;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        p {
+          padding-bottom: 13px;
+          font-weight: 600;
+          font-size: 22px;
+          color: #22343D;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+        }
+      }
+
+      &__two {
+        padding: 20px 0;
+        width: 27%;
+        height: 305px;
+        border: 2px solid #DEDEDE;
+        border-radius: 10px;
+        &--icon {
+          margin-bottom: 20px;
+          border-radius: 15px;
+          font-size: 55px;
+          padding: 15px 13px;
+          color: #FFFFFF;
+          background: #4D8DFF;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        p {
+          padding-bottom: 13px;
+          font-weight: 600;
+          font-size: 22px;
+          color: #22343D;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+        }
+      }
+
+      &__three {
+        width: 27%;
+        height: 305px;
+        border: 2px solid #DEDEDE;
+        border-radius: 10px;
+        padding: 20px 0;
+        &--icon {
+          margin-bottom: 20px;
+          border-radius: 15px;
+          font-size: 55px;
+          padding: 15px 13px;
+          color: #ffffff;
+          background: #F03E3D;
+          transition: .6s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        p {
+          padding-bottom: 13px;
+          font-weight: 600;
+          font-size: 22px;
+          color: #22343D;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+        }
+      }
+
+
     }
   }
 }
